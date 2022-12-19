@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    font-family: Oswald, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(rgba(6, 0, 105, 1) 0%, rgba(41, 105, 213, 1) 96%);
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    color: rgb(223, 183, 7);
+}
+
+table,
+tr,
+th,
+td {
+    box-shadow: 3px 3px 10px black;
+    border-radius: 15px;
+    border: 2px solid gold;
+}
+
+hr {
+    box-shadow: 1px 1px 10px inset yellow;
+    border: 2px solid gold;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    background-color: black;
+}
+
+.E,
+.B,
+.M,
+.O {
+    box-sizing: border-box;
+    height: 25vh;
+    padding: 20px;
+}
+
+.E table,
+.B table,
+.M table,
+.O table {
+    box-sizing: border-box;
+    height: 25vh;
+    padding: 20px;
+}
+
+.E img {
+    margin-right: 5rem;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px black;
+    width: 10%;
+    float: right;
+}
+
+.B img {
+    margin-right: 5rem;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px black;
+    height: 100%;
+    float: left;
+}
+
+.M img {
+    margin-right: 5rem;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px black;
+    height: 100%;
+    float: right;
+}
+
+.O img {
+    margin-right: 5rem;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px black;
+    height: 100%;
+    float: left;
+}
